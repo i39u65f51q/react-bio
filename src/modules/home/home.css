@@ -1,0 +1,21 @@
+.home {
+}
+
+.home section {
+  width: 100%;
+  height: 100vh;
+  padding-top: var(--header-h);
+  scroll-snap-align: start;
+}
+
+.home .top {
+  background-color: greenyellow;
+}
+
+.home .mid {
+  background-color: tomato;
+}
+
+.home .bottom {
+  background-color: steelblue;
+}

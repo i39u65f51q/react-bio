@@ -1,0 +1,44 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: var(--header-h);
+  background-color: #a3a3a37d;
+  border-bottom: 1px solid #aaa;
+  transition: height 0.3s ease-in;
+}
+
+.header.active {
+  height: 200px;
+}
+
+.header .header-wrap {
+  width: 100%;
+  height: var(--header-h);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.header .header-wrap .menu-btn {
+  width: 30px;
+  aspect-ratio: 1/1;
+  position: absolute;
+  right: 10px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.header .invisible-wrap {
+  display: none;
+}
+
+.header .invisible-wrap.active {
+  display: flex;
+  justify-content: center;
+}
